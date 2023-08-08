@@ -1,0 +1,65 @@
+
+
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.modal-box {
+  position: fixed;
+  inset: 15%;
+  background: rgb(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  z-index: 20;
+  color: whitesmoke;
+  border-radius: 20px;
+}
+
+.modal-box h1 {
+  padding-top: 10px;
+}
+
+.modal-box p {
+  padding: 0 17.5% 25px 17.5%;
+  text-align: center;
+  font-style: italic;
+}
+
+.modal-box img {
+  height: 45vh;
+  border-radius: 20px;
+  border: 2px solid whitesmoke;
+  /* box-shadow: 0 0 25px 5px white; */
+  box-shadow: 0 0 25px 10px rgb(53,113,181);
+}
+
+/* box-shadow- v-offset, h-offset */
+
+.modal-buttons button {
+  font-size: 2.2rem;
+  padding: 7.5px;
+  background:rgb(53,113,181);
+  margin: 25px 5px;
+  border-radius: 10px;
+  width: 8vw;
+}
+
+.modal-buttons button, button a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.modal-buttons button:hover {
+  cursor: pointer;
+  background:rgb(95, 152, 216);
+}
+

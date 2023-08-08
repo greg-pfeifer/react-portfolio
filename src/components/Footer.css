@@ -1,0 +1,37 @@
+
+
+.footer-section {
+  background: rgb(53,113,181);
+  background: linear-gradient(135deg, rgba(53,113,181,0.8464635854341737) 0%, rgba(19,60,106,1) 100%);
+  height: 12.5vh;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer div a, i {
+  text-decoration: none;
+  color: white;
+  font-size: 3.5rem;
+  
+}
+
+.left-footer, .right-footer {
+  margin: 0 40px;
+}
+
+.left-footer a, .right-footer a {
+  padding: 0 7px;
+}
+
+.right-footer a {
+  font-size: 3.2rem;
+}
+
+
+
+
+

@@ -1,0 +1,95 @@
+
+
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background: rgb(53,113,181);
+  background: linear-gradient(135deg, rgba(53,113,181,0.8464635854341737) 0%, rgba(19,60,106,1) 100%);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 40px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  padding: 0px 5px;
+  font-size: 2.5rem;
+}
+
+header a:hover {
+  cursor: pointer;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.devIcon {
+  font-size: 3.2rem;
+}
+
+.devIcon:hover {
+  text-decoration: none;
+  color: rgb(232, 222, 222);
+}
+
+.intro-section div {
+  height: 95vh;
+  font-size: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 40px;
+}
+
+.intro-article {
+  padding-bottom: 15vh;
+}
+
+.intro-button {
+  font-size: 2.3rem;
+  padding: 10px;
+  margin-right: 25px;
+  background:rgb(53,113,181);
+  color: white;
+  border-radius: 15px;
+  border: 1px solid white;
+  box-shadow: 1px 1px 8px white;
+  transition: all 0.2s ease-in-out;
+}
+
+.intro-button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

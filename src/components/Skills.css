@@ -1,0 +1,52 @@
+
+
+.skills-section {
+  margin: 100px 150px;
+  color: rgba(19,60,106,1);
+}
+
+.skills-section h1 {
+  font-size: 4rem;
+  color: rgba(19,60,106,1);
+}
+
+.about-me {
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-me span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.image-table {
+  font-size: 2.5rem;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.image-table div {
+  background: rgb(82, 142, 211);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 7.5px 7.5px 10px black;
+  transition: all .2s ease-in-out;
+}
+
+.image-table div:hover {
+  transform: scale(1.1);
+  box-shadow: 7.5px 7.5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.image-table img {
+  height: 16.5vh;
+}
+
+.image-table div p {
+  text-align: center;
+  color: white;
+}

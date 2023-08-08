@@ -1,0 +1,46 @@
+
+
+.portfolio-section {
+  font-size: 2.5rem;
+  background: rgb(53,113,181);
+  background: linear-gradient(135deg, rgba(53,113,181,0.8464635854341737) 0%, rgba(19,60,106,1) 100%);
+}
+
+.portfolio-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px 150px 150px 150px;
+}
+
+.portfolio-grid div {
+  margin-bottom: 35px;
+}
+
+.portfolio-heading h1 {
+  font-size: 4rem;
+  color: white;
+  margin: 150px 0 0 150px;
+  padding-top: 150px;
+  padding-bottom: 30px;
+}
+
+.portfolio-section img {
+  height: 30vh;
+  border: 2px solid black;
+  border-radius: 20px;
+  transition: all .2s ease-in-out;
+}
+
+.portfolio-section img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 0 8px 8px whitesmoke;
+
+}
+
+.portfolio-section div p {
+  text-align: center;
+  font-style: italic;
+  color: white;
+}
