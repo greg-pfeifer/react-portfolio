@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <section id="intro-section"className="intro-section">
       <header>
-        <nav>
+        <nav className='header-page-devicons'>
           <a
             className='devIcon'
             target="none"
@@ -26,7 +26,7 @@ export default function Header() {
             />
           </a>
         </nav>
-        <nav>
+        <nav className='header-page-nav'>
           <Link
             to='skills'
             smooth={true}
@@ -47,8 +47,7 @@ export default function Header() {
       <div>
         <article className="intro-article">
           <h1>Hi I'm Greg</h1>
-          <p>A front-end web developer</p>
-
+          <p>A full-stack web developer</p>
           <button className="intro-button">
             <Link
               to='portfolio'

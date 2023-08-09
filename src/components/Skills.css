@@ -1,52 +1,173 @@
 
 
 .skills-section {
-  margin: 100px 150px;
+  margin: 100px 112.5px;
+  padding-bottom: 30px;
   color: rgba(19,60,106,1);
 }
 
 .skills-section h1 {
   font-size: 4rem;
+  padding-top: 30px;
   color: rgba(19,60,106,1);
+  margin: 0 25px;
 }
 
 .about-me {
   font-size: 2.5rem;
   display: flex;
   justify-content: space-between;
-}
-
-.about-me span {
-  font-weight: bold;
-  font-style: italic;
+  margin: 0 25px;
 }
 
 .image-table {
   font-size: 2.5rem;
-  padding-top: 40px;
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .image-table div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: rgb(82, 142, 211);
-  padding: 30px;
   border-radius: 20px;
   box-shadow: 7.5px 7.5px 10px black;
-  transition: all .2s ease-in-out;
+  transition: all .3s ease-in-out;
+  padding: 45px;
+  margin: 25px;
 }
 
 .image-table div:hover {
   transform: scale(1.1);
   box-shadow: 7.5px 7.5px 10px rgba(0, 0, 0, 0.25);
+  cursor: default;
 }
 
 .image-table img {
-  height: 16.5vh;
+  /* height: 16.5vh; */
+  height: auto;
+  max-width: 100%;
 }
 
 .image-table div p {
   text-align: center;
   color: white;
+}
+
+@media only screen and (max-width: 1750px) {
+  .image-table div {
+    margin: 15px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+
+  .about-me, .skills-section h1 {
+    margin: 0 40px;
+  }
+
+  .image-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .image-table div {
+    padding: 20px;
+    margin: 10px 40px;
+  }
+
+  .image-table img {
+    max-width: 35%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .about-me, .skills-section h1 {
+    margin: 0 30px;
+  }
+
+  .image-table div {
+    padding: 20px;
+    margin: 10px 30px;
+  }
+
+  .image-table img {
+    max-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .about-me, .skills-section h1 {
+    margin: 0 15px;
+  }
+
+  .image-table div {
+    padding: 20px;
+    margin: 10px 15px;
+  }
+
+  .image-table img {
+    max-width: 75%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .skills-section {
+    margin: 60px 75px;
+  }
+
+  .skills-section h1 {
+    font-size: 3.4rem;
+  }
+
+  .about-me p {
+    font-size: 2.3rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .image-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .image-table img {
+    max-width: 45%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .skills-section {
+    margin: 60px 55px;
+  }
+
+  .image-table div {
+    padding: 20px;
+    margin: 10px 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .skills-section {
+    margin: 30px 20px;
+  }
+
+  .image-table img {
+    max-width: 65%;
+  }
+
+  .skills-section h1 {
+    font-size: 3.1rem;
+  }
+
+  .about-me p {
+    font-size: 2.1rem;
+  }
+
+  .image-table p {
+    font-size: 2.1rem;
+  }
 }

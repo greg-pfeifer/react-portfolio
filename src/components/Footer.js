@@ -28,15 +28,18 @@ export default function Footer() {
       <div className='right-footer'>
         <nav>
           <Link
+            className='hover-underline-animation'
             to='intro-section'
             smooth={true}
           >Home</Link>
           <a
+            className='hover-underline-animation'
             href={pdf}
             target='none'
           >Resume</a>
         </nav>
       </div>
+
     </footer>
   )
 }

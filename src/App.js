@@ -1,7 +1,7 @@
 
 
 
-import "./index.css";
+// import "./index.css";
 import Header from "./components/Header";
 import Skills from "./components/Skills";
 import Portfolio from "./components/Portfolio";

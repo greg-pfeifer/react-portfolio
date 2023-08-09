@@ -10,26 +10,25 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 40px;
 }
 
-footer div a, i {
+.footer-section div a {
   text-decoration: none;
   color: white;
   font-size: 3.5rem;
-  
+  padding: 0px 3.5px;
 }
 
-.left-footer, .right-footer {
-  margin: 0 40px;
+a:hover {
+  cursor: pointer;
 }
 
-.left-footer a, .right-footer a {
-  padding: 0 7px;
+.right-footer nav a {
+  font-size: 2.5rem;
 }
 
-.right-footer a {
-  font-size: 3.2rem;
-}
+
 
 
 

@@ -1,11 +1,13 @@
-
-
 .intro-section {
   display: flex;
   flex-direction: column;
   color: white;
-  background: rgb(53,113,181);
-  background: linear-gradient(135deg, rgba(53,113,181,0.8464635854341737) 0%, rgba(19,60,106,1) 100%);
+  background: rgb(53, 113, 181);
+  background: linear-gradient(
+    135deg,
+    rgba(53, 113, 181, 0.8464635854341737) 0%,
+    rgba(19, 60, 106, 1) 100%
+  );
 }
 
 header {
@@ -37,7 +39,7 @@ header a:hover {
 }
 
 .hover-underline-animation::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -81,7 +83,7 @@ header a:hover {
   font-size: 2.3rem;
   padding: 10px;
   margin-right: 25px;
-  background:rgb(53,113,181);
+  background: rgb(53, 113, 181);
   color: white;
   border-radius: 15px;
   border: 1px solid white;
@@ -92,4 +94,50 @@ header a:hover {
 .intro-button:hover {
   cursor: pointer;
   transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .intro-article h1 {
+    font-size: 4.5rem;
+  }
+
+  .intro-article p {
+    font-size: 3.75rem;
+  }
+
+  .intro-article button {
+    font-size: 1.9rem;
+    margin-right: 10px;
+  }
+
+  header nav a {
+    font-size: 2.25rem;
+  }
+
+  .devIcon {
+    font-size: 2.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+  .header-page-nav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .header-page-devicons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  .devIcon {
+    font-size: 3.25rem;
+  }
+
 }
