@@ -83,15 +83,24 @@ textarea {
 }
 
 @media only screen and (max-width: 650px) {
+  .contact-form {
+    margin: 75px 25px;
+  }
+
   .contact-form h1 {
     padding-bottom: 30px;
+  }
+
+  .contact-form label,
+  .contact-form button,
+  .contact-form input,
+  textarea {
+    font-size: 1.8rem;
   }
 }
 
 @media only screen and (max-width: 450px) {
-  .contact-form {
-    margin: 75px 25px;
-  }
+
 
   .contact-form h1 {
     padding-bottom: 20px;
@@ -106,13 +115,6 @@ textarea {
   .contact-form h1 {
     padding-bottom: 15px;
     font-size: 3.1rem;
-  }
-
-  .contact-form label,
-  .contact-form button,
-  .contact-form input,
-  textarea {
-    font-size: 2.1rem;
   }
 
   .contact-form button {

@@ -49,14 +49,12 @@ a:hover {
   
   .left-footer {
     margin-bottom: 25px;
+    margin-top: 10px;
   }
 
   .footer-nav-line {
     display: block;
   }
-}
-
-@media only screen and (max-width: 500px) {
 
   .right-footer nav a {
     font-size: 2rem;
@@ -65,8 +63,13 @@ a:hover {
   .left-footer a i {
     font-size: 3rem;
   }
+}
 
-  .footer-nav-line {
-    margin-top: 15px;
+@media only screen and (max-width: 500px) {
+
+  .left-footer {
+    margin-bottom: 25px;
+    margin-top: 0px;
   }
+
 }

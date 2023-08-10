@@ -14,7 +14,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 30px 40px;
+  margin: 30px 15px;
 }
 
 header nav {
@@ -72,12 +72,12 @@ header a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .intro-article {
   padding-bottom: 15vh;
-  padding-left: 20px;
+  padding-left: 5px;
 }
 
 .intro-button {
@@ -124,19 +124,12 @@ header a:hover {
   .header-page-nav {
     display: none;
   }
-}
-@media only screen and (max-width: 600px) {
-  .intro-section div {
-    height: 90vh;
-  }
 
   .intro-article {
     padding-bottom: 35vh;
-    padding-left: 10px;
   }
 }
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .header-page-devicons {
     width: 100%;
     display: flex;
@@ -144,6 +137,12 @@ header a:hover {
     justify-content: start;
   }
 
+  .intro-section div {
+    height: 90vh;
+  }
+}
+
+@media only screen and (max-width: 500px) {
   .devIcon {
     font-size: 3.25rem;
   }
