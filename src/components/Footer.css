@@ -1,8 +1,10 @@
-
-
 .footer-section {
-  background: rgb(53,113,181);
-  background: linear-gradient(135deg, rgba(53,113,181,0.8464635854341737) 0%, rgba(19,60,106,1) 100%);
+  background: rgb(53, 113, 181);
+  background: linear-gradient(
+    135deg,
+    rgba(53, 113, 181, 0.8464635854341737) 0%,
+    rgba(19, 60, 106, 1) 100%
+  );
   height: 12.5vh;
 }
 
@@ -28,9 +30,39 @@ a:hover {
   font-size: 2.5rem;
 }
 
+.footer-nav-line {
+  display: none;
+  margin-top: 10px;
+}
 
+@media only screen and (max-width: 650px) {
+  footer {
+    flex-direction: column-reverse;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 75px 0;
+  }
 
+  .right-footer {
+    margin-top: 25px;
+  }
+  
+  .left-footer {
+    margin-top: 15px;
+  }
 
+  .footer-nav-line {
+    display: block;
+  }
+}
 
+@media only screen and (max-width: 500px) {
 
+  .right-footer nav a {
+    font-size: 2.25rem;
+  }
 
+  .footer-nav-line {
+    margin-top: 15px;
+  }
+}

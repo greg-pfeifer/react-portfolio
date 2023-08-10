@@ -38,6 +38,7 @@ export default function Footer() {
             target='none'
           >Resume</a>
         </nav>
+        <hr className='footer-nav-line'/>
       </div>
 
     </footer>

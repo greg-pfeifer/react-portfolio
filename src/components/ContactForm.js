@@ -52,7 +52,6 @@ export default function ContactForm() {
 
     <form id='contact' className='contact-form' ref={form} onSubmit={sendEmail}>
       <h1>Let's Connect!</h1>
-
       <label>Name</label>
       <input
         onChange={nameChangeHandler}
