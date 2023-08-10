@@ -33,7 +33,7 @@ export default function Portfolio() {
       }
       <section id='portfolio' className='portfolio-section'>
         <div className='portfolio-heading'>
-          <h1>Projects</h1>
+          <h1>Portfolio</h1>
         </div>
         <div className='portfolio-grid'>
           {appImages.map((image) => (

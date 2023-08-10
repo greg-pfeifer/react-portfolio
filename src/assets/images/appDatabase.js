@@ -38,7 +38,7 @@ let appDatabase = [
   },
   {
     title: 'E-Commerce Server',
-    description: 'A full CRUD back-end application that mimics an e-commerce website server and allows for exhaustive data manipulation using 15 API routes - built with Express.js, Sequelize, various Node.js dependencies, and the Insomnia desktop application',
+    description: 'A full CRUD back-end application that mimics an e-commerce website server and allows for exhaustive data manipulation using 15 API routes - built with Express.js, Sequelize, various NPM dependencies, and the Insomnia desktop application',
     image: 'ecommerce.png',
     appURL: '',
     codeURL: 'https://github.com/greg-pfeifer/e-commerce-back_end/tree/main'
