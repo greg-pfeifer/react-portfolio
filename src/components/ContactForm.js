@@ -27,22 +27,24 @@ export default function ContactForm() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    if (!e.target[0].value || !e.target[1].value || !e.target[2].value) {
+    if (e.target[0].value && e.target[1].value && e.target[2].value ) {
+      alert('Message sent!')
+    }
+    else if (!e.target[0].value || !e.target[1].value || !e.target[2].value) {
       alert('Please enter a valid name, email address and message.')
       return
     }
-    // emailjs.sendForm(
-    //   'service_aqhtixu',
-    //   'template_rknlaw7',
-    //   form.current,
-    //   'P1Gaj8G4O0kTvydw3')
-    //   .then((result) => {
-    //     console.log(result.text);
-    //     console.log('message sent')
-    //   }, (error) => {
-    //     console.log(error.text);
-    //   });
+    emailjs.sendForm(
+      'service_aqhtixu',
+      'template_rknlaw7',
+      form.current,
+      'P1Gaj8G4O0kTvydw3')
+      .then((result) => {
+        console.log(result.text);
+        console.log('message sent')
+      }, (error) => {
+        console.log(error.text);
+      });
     setUserName('')
     setUserEmail('')
     setUserMessage('')

@@ -48,7 +48,7 @@ a:hover {
   }
   
   .left-footer {
-    margin-top: 15px;
+    margin-bottom: 25px;
   }
 
   .footer-nav-line {
@@ -59,7 +59,11 @@ a:hover {
 @media only screen and (max-width: 500px) {
 
   .right-footer nav a {
-    font-size: 2.25rem;
+    font-size: 2rem;
+  }
+
+  .left-footer a i {
+    font-size: 3rem;
   }
 
   .footer-nav-line {

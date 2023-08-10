@@ -20,3 +20,11 @@ export default function App() {
   );
 }
 
+
+// header - padding issues top anchors
+// header - move intro para/buttons up the page, ensure page is 100vh max
+// fix footer padding
+// enable contact form
+// test email
+// contact form - drop left/right margin
+// contact form - drop font size (placeholder and labels)

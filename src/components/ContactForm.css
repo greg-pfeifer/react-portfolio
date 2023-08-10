@@ -1,12 +1,10 @@
-
-
 .contact-form {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 2.6rem;
   margin: 100px 150px;
-  color: rgba(19,60,106,1);
+  color: rgba(19, 60, 106, 1);
 }
 
 .contact-form h1 {
@@ -20,12 +18,13 @@
   font-weight: bold;
 }
 
-.contact-form input, textarea {
+.contact-form input,
+textarea {
   font-size: 2.5rem;
   width: 50vw;
   padding: 10px;
   margin: 10px 0;
-  border: 2px solid rgb(53,113,181);
+  border: 2px solid rgb(53, 113, 181);
   border-radius: 15px;
 }
 
@@ -33,7 +32,7 @@
   width: 11.5%;
   font-size: 2.5rem;
   padding: 12px;
-  background:rgb(53,113,181);
+  background: rgb(53, 113, 181);
   color: white;
   border-radius: 15px;
   border: 1px solid black;
@@ -41,7 +40,7 @@
 
 .contact-form button:hover {
   cursor: pointer;
-  background:rgb(95, 152, 216);
+  background: rgb(95, 152, 216);
 }
 
 @media only screen and (max-width: 1200px) {
@@ -67,7 +66,8 @@
     width: 100%;
   }
 
-  .contact-form input, textarea {
+  .contact-form input,
+  textarea {
     width: 100%;
   }
 
@@ -90,7 +90,7 @@
 
 @media only screen and (max-width: 450px) {
   .contact-form {
-    margin: 75px 50px;
+    margin: 75px 25px;
   }
 
   .contact-form h1 {
@@ -103,17 +103,16 @@
 }
 
 @media only screen and (max-width: 400px) {
-  .contact-form {
-    margin: 75px 40px;
-  }
-
   .contact-form h1 {
     padding-bottom: 15px;
-    font-size: 3.4rem;
+    font-size: 3.1rem;
   }
 
-  .contact-form label, .contact-form button {
-    font-size: 2.3rem;
+  .contact-form label,
+  .contact-form button,
+  .contact-form input,
+  textarea {
+    font-size: 2.1rem;
   }
 
   .contact-form button {
