@@ -72,7 +72,19 @@ button a {
   background: rgb(95, 152, 216);
 }
 
+@media only screen and (max-width: 1600px) {
+
+	.modal-box {
+		inset: 0;
+	}
+}
+
 @media only screen and (max-width: 1400px) {
+
+	.modal-box {
+		inset: 0;
+	}
+
 	.modal-box img {
 		max-width: 65%;
 	}
